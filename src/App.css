@@ -5,10 +5,35 @@
 }
 
 .nav-top{
-  padding-top: 4rem;
+  padding-top: 6rem;
+}
+.link{
+  color: black;
+  
+}
+.bg-body{
+  background: linear-gradient(125deg, rgba(251,234,242,1) 0%, rgba(253,238,238,1) 45%, rgba(253,239,233,1) 100%);
 }
 
 
+.drop-menu{
+  padding-top: 5rem;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px grey;
+}
+.link:hover{
+  color:orange;
+  text-decoration:none;
+  border-bottom:3px solid red ;
+  padding-bottom: 0.5em;
+}
+
+
+.form-controls:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 .App-logo {
   height: 40vmin;
@@ -23,12 +48,12 @@
 }
 @media only screen and (max-width: 768px) {
   .nav-top{
-    padding-top: 8rem;
+    padding-top: 13rem;
   }
 }
 @media only screen and (max-width: 600px) {
   .nav-top{
-    padding-top: 15rem;
+    padding-top: 20rem;
   }
 }
 .App-header {
