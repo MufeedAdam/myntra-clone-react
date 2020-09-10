@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,Card,CardGroup,CardDeck,CardColumns, Dropdown, DropdownButton } from 'react-bootstrap';
+import { Container,Card, CardColumns, Dropdown, DropdownButton } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const CategoryList = () =>{
     const items = {
