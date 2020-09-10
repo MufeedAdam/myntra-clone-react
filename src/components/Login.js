@@ -8,7 +8,7 @@ import '../App.css';
 const Login = () =>{
 
     return(
-        <Container className="mt-5" className="bg-body" style={{maxWidth:"100%",paddingTop:"2rem"}}>
+        <Container className="bg-body" style={{maxWidth:"100%",paddingTop:"2rem"}}>
             <Card   style={{ width: '20rem', marginLeft: 'auto', marginRight:'auto'}} 
                     className="mb-2">
                 <Card.Header className="text-left"><b>Login</b> or <b>Sign Up</b></Card.Header>

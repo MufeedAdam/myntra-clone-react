@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import { Navbar, Nav, Form, FormControl,Button, Container,InputGroup,ButtonGroup } from 'react-bootstrap';
+import { Navbar, Nav, Form, FormControl,Button, Container,InputGroup } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
 import { faUser, faBookmark } from '@fortawesome/free-regular-svg-icons'

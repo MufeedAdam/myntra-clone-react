@@ -3,7 +3,6 @@ import { Container, Row,Col } from 'react-bootstrap';
 import MobileStoreButton from 'react-mobile-store-button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStarHalfAlt, faCalendarDay,faShuttleVan } from '@fortawesome/free-solid-svg-icons'
-import { faUser, faBookmark,faGrinStars, faCalendarPlus, } from '@fortawesome/free-regular-svg-icons'
 const Footer = () =>{
 
     return(

@@ -1,5 +1,5 @@
-import React, {useEffect} from 'react';
-import { Container,Card,Button,CardGroup } from 'react-bootstrap';
+import React from 'react';
+import { Container,Card,CardGroup } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Cart = () =>{
     const items = {
@@ -31,10 +31,7 @@ const Cart = () =>{
         "deListedItems": []
       }
 
-      useEffect(() => {
-        console.log(items)
-        items.value.map((value) => console.log(value.id))
-      });
+
     return(
         <Container>
             <p className="text-left mt-5"><b>My Wishlisht </b>{items.count} items</p>
